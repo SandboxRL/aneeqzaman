@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Muhammad Aneeq uz Zaman</title>
+    <link>http://localhost:1313/project/</link>
+      <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 27 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>http://localhost:1313/project/</link>
+    </image>
+    
+    <item>
+      <title>Age of Information for Multi-agent systems</title>
+      <link>http://localhost:1313/project/multi-agent_systems_with_communication_constraints/</link>
+      <pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/multi-agent_systems_with_communication_constraints/</guid>
+      <description>&lt;p&gt;In this project, we consider a discrete-time multi-agent system involving N cost-coupled networked rational agents solving a consensus problem and a central Base Station (BS), scheduling agent communications over a network. Due to a hard bandwidth constraint on the number of transmissions through the network, at most Rd &amp;lt; N agents can concurrently access their state information through the network. Under standard assumptions on the information structure of the agents and the BS, we first show that the control actions of the agents are free of any dual effect, allowing for separation between estimation and control problems at each agent. Next, we propose a weighted age of information (WAoI) metric for the scheduling problem of the BS, where the weights depend on the estimation error of the agents. The BS aims to find the optimum scheduling policy that minimizes the WAoI, subject to the hard bandwidth constraint. Since this problem is NPhard, we first relax the hard constraint to a soft updaterate constraint, and then compute an optimal policy for the relaxed problem by reformulating it into a Markov Decision Process (MDP). This then inspires a sub-optimal policy for the bandwidth constrained problem, which is shown to approach the optimal policy as N → ∞. Next, we solve the consensus problem using the mean-field game framework wherein we first design decentralized control policies for a limiting case of the N–agent system (as N → ∞). By explicitly constructing the mean-field system, we prove the existence and uniqueness of the mean-field equilibrium. Consequently, we show that the obtained equilibrium policies constitute an ǫ–Nash equilibrium for the finite agent system. Finally, we validate the performance of both the scheduling and the control policies through numerical simulations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Oracle-free Multi-agent RL</title>
+      <link>http://localhost:1313/project/oracle-free-multi-agent-rl/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/oracle-free-multi-agent-rl/</guid>
+      <description>&lt;p&gt;In this project we consider online reinforcement learning in Multi-agent setting using the Mean-Field Game paradigm. Unlike traditional approaches, we alleviate the need for a mean-field oracle by developing an algorithm that estimates the mean-field and the optimal policy using the single sample path of the generic agent. We call this {\it Sandbox Learning}, as it can be used as a warm-start for any agent operating in a multi-agent non-cooperative setting. We adopt a two timescale approach in which an online fixed-point recursion for the mean-field operates on a slower timescale and in tandem with a control policy update on a faster timescale for the generic agent. Given that the underlying Markov Decision Process (MDP) of the agent is communicating, we provide finite sample convergence guarantees in terms of convergence of the mean-field and control policy to the mean-field equilibrium. The sample complexity of the Sandbox learning algorithm is $\mathcal{O}(\epsilon^{-4})$. Finally, we empirically demonstrate the effectiveness of the sandbox learning algorithm in diverse scenarios, including those where the MDP does not necessarily have a single communicating class.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-Agent RL in multiple populations</title>
+      <link>http://localhost:1313/project/rl-lqmfgs/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/rl-lqmfgs/</guid>
+      <description>&lt;p&gt;Scalability of reinforcement learning algorithms to multi-agent systems is a significant bottleneck to their practical use. In this project, we approach multi-agent reinforcement learning from a mean-field game perspective, where the number of agents tends to infinity. Our analysis focuses on the setting where agents are assumed to be partitioned into finitely many populations connected by a network of known structure. The functional forms of the agents’ costs and dynamics are assumed to be the same within populations, but differ between populations. We first characterize the equilibrium of the mean-field game which further prescribes an approximate Nash equilibrium for the finite population game. Our main focus is on the design of a learning algorithm, based on zero-order stochastic optimization, for computing mean-field equilibria. The algorithm exploits the affine structure of both the equilibrium controller and equilibrium mean-field trajectory by decomposing the learning task into first learning the linear terms and then learning the affine terms. We present a convergence proof and a finite-sample bound quantifying the estimation error as a function of the number of samples&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Safety and Security of Multi-agent Systems</title>
+      <link>http://localhost:1313/project/manipulation-over-physical-and-social-networks/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/manipulation-over-physical-and-social-networks/</guid>
+      <description>&lt;p&gt;In this project, we propose a game between an exogenous adversary and a network of agents connected via a multigraph. The multigraph is composed of (1) a global graph structure, capturing the virtual interactions among the agents, and (2) a local graph structure, capturing physical/local interactions among the agents. The aim of each agent is to achieve consensus with the other agents in a decentralized manner by minimizing a local cost associated with its local graph and a global cost associated with the global graph. The exogenous adversary, on the other hand, aims to maximize the average cost incurred by all agents in the multigraph. We derive Nash equilibrium policies for the agents and the adversary in the Mean-Field Game setting,  when the agent population in the global graph is arbitrarily large and the ``homogeneous mixing&amp;quot; hypothesis holds on local graphs. This equilibrium is shown to be unique and the equilibrium Markov policies for each agent depend on the local state of the agent, as well as the influences on the agent by the local and global mean fields.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Optimal path planning for thermalling gliders</title>
+      <link>http://localhost:1313/project/path_planning_for_gliders/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/path_planning_for_gliders/</guid>
+      <description>&lt;p&gt;Soaring refers to the exploitation of free energy available in the environment. One such source of free energy is thermals (columns of rising hot air) which are routinely used by birds and glider pilots to increase their flight range. In this paper, we deal with a surveillance problem in which a group of gliders have to visit a set of interest points. The gliders can use thermals to visit more interest points by increasing their flight range. We present a path planning algorithm which makes sure that the gliders visit as many interest points as possible, while respecting the dynamic constraints of the gliders. We decompose the problem into two parts. The first part deals with planning the best path, for a single glider, while only considering a subset of interest points. The path is planned using Continuous Curvature turns and a graph search based approach. The second part deals with determining the best allocation of interest points for each glider. We also present optimality guarantees for our algorithm.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RL | Muhammad Aneeq uz Zaman</title>
+    <link>http://localhost:1313/tag/rl/</link>
+      <atom:link href="http://localhost:1313/tag/rl/index.xml" rel="self" type="application/rss+xml" />
+    <description>RL</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>RL</title>
+      <link>http://localhost:1313/tag/rl/</link>
+    </image>
+    
+    <item>
+      <title>Oracle-free Multi-agent RL</title>
+      <link>http://localhost:1313/project/oracle-free-multi-agent-rl/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/oracle-free-multi-agent-rl/</guid>
+      <description>&lt;p&gt;In this project we consider online reinforcement learning in Multi-agent setting using the Mean-Field Game paradigm. Unlike traditional approaches, we alleviate the need for a mean-field oracle by developing an algorithm that estimates the mean-field and the optimal policy using the single sample path of the generic agent. We call this {\it Sandbox Learning}, as it can be used as a warm-start for any agent operating in a multi-agent non-cooperative setting. We adopt a two timescale approach in which an online fixed-point recursion for the mean-field operates on a slower timescale and in tandem with a control policy update on a faster timescale for the generic agent. Given that the underlying Markov Decision Process (MDP) of the agent is communicating, we provide finite sample convergence guarantees in terms of convergence of the mean-field and control policy to the mean-field equilibrium. The sample complexity of the Sandbox learning algorithm is $\mathcal{O}(\epsilon^{-4})$. Finally, we empirically demonstrate the effectiveness of the sandbox learning algorithm in diverse scenarios, including those where the MDP does not necessarily have a single communicating class.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-Agent RL in multiple populations</title>
+      <link>http://localhost:1313/project/rl-lqmfgs/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/rl-lqmfgs/</guid>
+      <description>&lt;p&gt;Scalability of reinforcement learning algorithms to multi-agent systems is a significant bottleneck to their practical use. In this project, we approach multi-agent reinforcement learning from a mean-field game perspective, where the number of agents tends to infinity. Our analysis focuses on the setting where agents are assumed to be partitioned into finitely many populations connected by a network of known structure. The functional forms of the agents’ costs and dynamics are assumed to be the same within populations, but differ between populations. We first characterize the equilibrium of the mean-field game which further prescribes an approximate Nash equilibrium for the finite population game. Our main focus is on the design of a learning algorithm, based on zero-order stochastic optimization, for computing mean-field equilibria. The algorithm exploits the affine structure of both the equilibrium controller and equilibrium mean-field trajectory by decomposing the learning task into first learning the linear terms and then learning the affine terms. We present a convergence proof and a finite-sample bound quantifying the estimation error as a function of the number of samples&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

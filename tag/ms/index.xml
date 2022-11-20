@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MS | Muhammad Aneeq uz Zaman</title>
+    <link>http://localhost:1313/tag/ms/</link>
+      <atom:link href="http://localhost:1313/tag/ms/index.xml" rel="self" type="application/rss+xml" />
+    <description>MS</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 27 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>MS</title>
+      <link>http://localhost:1313/tag/ms/</link>
+    </image>
+    
+    <item>
+      <title>Age of Information for Multi-agent systems</title>
+      <link>http://localhost:1313/project/multi-agent_systems_with_communication_constraints/</link>
+      <pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/multi-agent_systems_with_communication_constraints/</guid>
+      <description>&lt;p&gt;In this project, we consider a discrete-time multi-agent system involving N cost-coupled networked rational agents solving a consensus problem and a central Base Station (BS), scheduling agent communications over a network. Due to a hard bandwidth constraint on the number of transmissions through the network, at most Rd &amp;lt; N agents can concurrently access their state information through the network. Under standard assumptions on the information structure of the agents and the BS, we first show that the control actions of the agents are free of any dual effect, allowing for separation between estimation and control problems at each agent. Next, we propose a weighted age of information (WAoI) metric for the scheduling problem of the BS, where the weights depend on the estimation error of the agents. The BS aims to find the optimum scheduling policy that minimizes the WAoI, subject to the hard bandwidth constraint. Since this problem is NPhard, we first relax the hard constraint to a soft updaterate constraint, and then compute an optimal policy for the relaxed problem by reformulating it into a Markov Decision Process (MDP). This then inspires a sub-optimal policy for the bandwidth constrained problem, which is shown to approach the optimal policy as N → ∞. Next, we solve the consensus problem using the mean-field game framework wherein we first design decentralized control policies for a limiting case of the N–agent system (as N → ∞). By explicitly constructing the mean-field system, we prove the existence and uniqueness of the mean-field equilibrium. Consequently, we show that the obtained equilibrium policies constitute an ǫ–Nash equilibrium for the finite agent system. Finally, we validate the performance of both the scheduling and the control policies through numerical simulations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Safety and Security of Multi-agent Systems</title>
+      <link>http://localhost:1313/project/manipulation-over-physical-and-social-networks/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/manipulation-over-physical-and-social-networks/</guid>
+      <description>&lt;p&gt;In this project, we propose a game between an exogenous adversary and a network of agents connected via a multigraph. The multigraph is composed of (1) a global graph structure, capturing the virtual interactions among the agents, and (2) a local graph structure, capturing physical/local interactions among the agents. The aim of each agent is to achieve consensus with the other agents in a decentralized manner by minimizing a local cost associated with its local graph and a global cost associated with the global graph. The exogenous adversary, on the other hand, aims to maximize the average cost incurred by all agents in the multigraph. We derive Nash equilibrium policies for the agents and the adversary in the Mean-Field Game setting,  when the agent population in the global graph is arbitrarily large and the ``homogeneous mixing&amp;quot; hypothesis holds on local graphs. This equilibrium is shown to be unique and the equilibrium Markov policies for each agent depend on the local state of the agent, as well as the influences on the agent by the local and global mean fields.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
